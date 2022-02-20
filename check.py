@@ -16,7 +16,7 @@ Ojo que tines solo un intento de acertar. Mucha suerte !!
 print('')
 num_selected = int(input('Ingrese un numero del 1 al 10 : '))
 
-if num_selected == numWin:
+if num_selected == num_win:
     print ('Felicidades le acertaste al numero correcto : {}'.format(num_selected))
     
 if num_selected > 10 or num_selected < 1 :
