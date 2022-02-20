@@ -1,3 +1,8 @@
+from cgitb import reset
+from pdb import Restart
+from tracemalloc import stop
+
+
 print('')
 print('Bienvenidos!!')
 print('''
@@ -9,6 +14,7 @@ Aprobara con mas del 75% correctas.
 Mucho exito !
 
 ''')
+
 one = input('''
     1. El aceite de su motor debe de estar ...
     
@@ -17,6 +23,9 @@ one = input('''
     c) Entre el maximo y minimo   
             
 :  ''')
+if one != ('a','b','c','A','B','C'):
+    print('Debes seguir instrucciones. ')
+    quit()
  
 two = input('''
     2. Si estamos circulando con nuestro vehiculo y llevamos una marcha puesta. ¿ Cuando
@@ -27,6 +36,9 @@ two = input('''
     c) Estara en todo momento girando, este o no este pisado
             
 :  ''')
+if two != ('a','b','c','A','B','C'):
+    print('Debes seguir instrucciones. ')
+    quit()
 
 three = input('''
     3. Que piesa es la encargada de reallizar la union de: el arbol de transmision 
@@ -37,6 +49,9 @@ three = input('''
     c) Por la junta culata
             
 :  ''')
+if three != ('a','b','c','A','B','C'):
+    print('Debes seguir instrucciones. ')
+    quit()
 
 For = input('''
     4. Que mision tiene la gemela o la biela de suspension ?
@@ -46,6 +61,9 @@ For = input('''
     c) Absorven las oscilaciones de la suspension. 
             
 :  ''')
+if For != ('a','b','c','A','B','C'):
+    print('Debes seguir instrucciones. ')
+    quit()
 
 five = input('''
     5. La parte del neumatico que esta en contacto con el pavimento es ...
@@ -55,6 +73,10 @@ five = input('''
     c) La carcasa del neumatico
             
 :  ''')
+if five != ('a','b','c','A','B','C'):
+    print('Debes seguir instrucciones. ')
+    quit()
+    
 lista= [one,two,three,For,five]
 score = 0
 i=0
