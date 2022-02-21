@@ -30,23 +30,14 @@ def clearConsole():
         command = 'cls'
     os.system(command)
 
-def print_elements_list(elemnts):
-    i = 0
-    
-    for i in elemnts:
-        if i  in elements:
-            print (i),
-
-elements = ['Desatornillador', 'Pala', 'Lima', 'Motosierra', 'Cuerda', 'Palanca']
-option = input('Ingrese la opcion que mas estime conveniente :  ')
+option = None
+while option != 'A' and option != 'B' and option != 'C' and option != 'D' and option != 'E' and option != 'F':
+    option = input('Ingrese la opcion que mas estime conveniente :  ').capitalize()
 
 if option == 'A' or option == 'a' :
     
     clearConsole()
-    
     print('Abres una escotilla que se encuentra por debajo del escusado y encuentras otros dos objetos :')
-    elements.append('Cuerda')
-    elements.append('Palanca')
     print('''
     B. Una pala
     C. Una lima
