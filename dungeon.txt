@@ -1,0 +1,57 @@
+Juego de la mazmorra 
+------------------------
+
+Te encuentras en una prision con diferentes objetos a tu alrededor, algunos de ellos
+te podran ayudar a escapar de la celda para posteriormente salir de la prision sin que te capture la policia.
+Tambien te pueden capturar al instante asi que ve bien cual es tu decision.
+
+- Recuerda tendras diferentes selecciones a lo largo del juego.
+- Aegurate de marcar A , B , C o en los diferentes casos para su ejecucion.
+
+-------------------------
+
+Miras a tu alrededor y te encuentras con los siguientes objetos :
+
+A. Un desatornillador
+B. Una pala
+C. Una lima
+D. Una motosierra
+E. Cuerda
+F. Palanca
+
+Ingrese la opcion que mas estime conveniente : 
+
+[ opcion A ] :
+    Abres una escotilla que se encuentra por debajo del excusado y encuentras otros dos objetos :
+    A. Una cuerda 
+    B. Una palanca 
+    C. Lima 
+    [ opcion A ] :
+        La cuerda es de gran ayuda pero la ventana aun cuenta con pilares
+    [ opcion B ] :
+        La palanca me podria servir para intentar romper los polares de la ventana pero lamentablemente te
+        ven utilizandola
+    [ opcion C ] :
+        Logras romper los pilares de la ventana de la celda.
+        Ingresar la variable 
+        [ opcion A ] :
+            Con la cuerda logras atarla a una de los pilares que no sacaste, al salir inmediatemete salta el aviso
+            en la prision.
+            Tienes dos opciones, esconderte o subirte a un auto aparcado e intentar prenderlo.
+            [ opcion A ] :
+                Al esconderte te encuentra la policia
+            [ opcion B ] :
+                Al dueño del automovil se le quedaron las llaves puestas, tienes demasiada suerte!!
+                Haz escapado de la prision, felicidades.
+[ opcion B ] :
+    Misteriosamente el piso de tu celda es de tierra y comienzas a cabar un agujero.
+    Lamentablemente te demoras lo suficiente para que el guardia se de cuenta y te descubran. 
+
+[ opcion C ] :
+    
+    Empiezas a limar la cerradura para poder escapar pero al intentarlo te descubre un guardia
+
+[ opcion D ] :
+    La motosierra es rapida pero es muy sonora.
+    Lamentablemente logras abrir la cerradura de la celda pero ya 5 policias te estan esperando en la puerta.
+    
